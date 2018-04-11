@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-NODE_VERSION="6.11.3"
+NODE_VERSION="8.11.1"
 
 export NodeInstallDir="/tmp/node$NODE_VERSION"
 mkdir -p $NodeInstallDir
