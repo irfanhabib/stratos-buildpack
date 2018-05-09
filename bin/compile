@@ -40,6 +40,8 @@ source "$BUILDPACK_DIR/scripts/install_glide.sh"
 # Install nodejs
 source "$BUILDPACK_DIR/scripts/install_nodejs.sh"
 
+npm i -g npm@latest
+
 export PATH=$NodeDir/bin:$GoInstallDir/go/bin:$GlideDir:$PATH
 
 echo "-----> Checking versions"
